@@ -1,0 +1,45 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 4",
+    "columnName": "Column 4"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 5",
+    "columnName": "Column 5"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 6",
+    "columnName": "Column 6"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 7",
+    "columnName": "Column 7"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column 11",
+    "columnName": "Column 11"
+  },
+  {
+    "op": "core/row-star",
+    "description": "Star rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "starred": true
+  },
+  {
+    "op": "core/row-star",
+    "description": "Unstar rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "starred": false
+  }
+]
